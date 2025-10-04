@@ -69,4 +69,4 @@ else
     NEW_BEST_GAME=$BEST_GAME
   fi
   UPDATE_USER=$($PSQL "UPDATE users SET games_played=$NEW_GAMES_PLAYED, best_game=$NEW_BEST_GAME WHERE user_id=$USER_ID")
-fi 
+fi
